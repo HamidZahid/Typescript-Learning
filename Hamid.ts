@@ -11,3 +11,13 @@ let arr2: [number, string, boolean] = [1, "Hamid", true];
 //Enumerations
 
 enum Color { NAME = 'hamid', AGE = 12 }
+
+//Any
+let a: number;
+a = 12;
+
+//Unknown
+//void
+//null
+//undefined
+//never

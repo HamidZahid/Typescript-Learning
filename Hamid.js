@@ -10,3 +10,11 @@ var Color;
     Color["NAME"] = "hamid";
     Color[Color["AGE"] = 12] = "AGE";
 })(Color || (Color = {}));
+//Any
+let a;
+a = 12;
+//Unknown
+//void
+//null
+//undefined
+//never
