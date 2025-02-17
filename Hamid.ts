@@ -21,3 +21,28 @@ a = 12;
 //null
 //undefined
 //never
+
+
+interface Hamid{
+    name: string;
+    age: number;
+    email: string;
+    password: string;
+    salary?: number; //optional
+}
+
+function hamid(fawaz: Hamid){
+    fawaz.
+}  
+
+interface User {
+    name: string;
+    age: number;
+    email: string;
+    password: string;
+    salary?: number;
+}
+
+interface Admin extends User {
+    admin: boolean;
+}
